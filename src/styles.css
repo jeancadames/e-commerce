@@ -260,7 +260,7 @@ width: 100%;
 }
 
 .hero-banner-container{
-  background: url('src/assets/basektball-player-bg.jpg')no-repeat center center / cover;
+  background: url('https://img.freepik.com/free-photo/young-basketball-player-team-wearing-sportwear-training-practicing-action-motion-run-isolated-white-background_155003-32562.jpg?w=1060&t=st=1676149786~exp=1676150386~hmac=0132e3ef10f3394facd28255b9720bfa27e02db7e567b49add3349fbb3ffb9ce')no-repeat center center / cover;
   padding: 100px 40px;
   position: relative;
   height: 500px;
@@ -342,7 +342,7 @@ color: #1369bb;
 .footer-banner-container{
   padding: 100px 40px;
   /* background-color: #1369bb; */
-  background:rgba(0, 0, 0, 0.4) url('src/assets/footer-img.jpg') no-repeat center center / cover;
+  background:rgba(0, 0, 0, 0.4) url('https://www.bodybuilding.com/images/2016/may/how-and-why-to-do-push-ups-tablet-830x467.jpg') no-repeat center center / cover;
   background-blend-mode: darken;
   /* border-radius: 15px; */
   position: relative;
