@@ -10,19 +10,19 @@ export const ContentImage = () => {
             <div className="images-container">
                 <Link to={'Basketball'}>
                 <div className="basketball-bg">
-                    <img src="assets\basketball bg.avif" alt="basketball-image" />
+                    <img src="src\assets\basketball bg.avif" alt="basketball-image" />
                     <h2>Explosiveness</h2>
                 </div>
                 </Link>
                 <Link to={'/Boxing'}>
                 <div className="boxing-bg">
-                    <img src="assets\boxing bg.avif" alt="boxing-image" />
+                    <img src="src\assets\boxing bg.avif" alt="boxing-image" />
                     <h2>Strength</h2>
                 </div>
                 </Link>
                 <Link to={'/Tennis'}>
                 <div className="tennis-bg">
-                    <img src="assets\tennis bg.avif" alt="tensis-image" />
+                    <img src="src\assets\tennis bg.avif" alt="tensis-image" />
                     <h2>Precision</h2>
                 </div>
                 </Link>

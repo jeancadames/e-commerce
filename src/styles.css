@@ -260,7 +260,7 @@ width: 100%;
 }
 
 .hero-banner-container{
-  background: url('assets/basektball-player-bg.jpg')no-repeat center center / cover;
+  background: url('src/assets/basektball-player-bg.jpg')no-repeat center center / cover;
   padding: 100px 40px;
   position: relative;
   height: 500px;
@@ -342,7 +342,7 @@ color: #1369bb;
 .footer-banner-container{
   padding: 100px 40px;
   /* background-color: #1369bb; */
-  background:rgba(0, 0, 0, 0.4) url('assets/footer-img.jpg') no-repeat center center / cover;
+  background:rgba(0, 0, 0, 0.4) url('src/assets/footer-img.jpg') no-repeat center center / cover;
   background-blend-mode: darken;
   /* border-radius: 15px; */
   position: relative;
