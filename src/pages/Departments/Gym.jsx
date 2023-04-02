@@ -11,7 +11,10 @@ export const Gym = () => {
     <>
       <div className="dpt-title">
         <h2>Gym</h2>
-        <span>{productsCategory.length} products</span>
+        <span>
+          {/* {productsCategory.length} */}
+
+          16 products</span>
       </div>
       <div className="dpt-line"></div>
 

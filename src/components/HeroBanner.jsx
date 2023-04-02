@@ -27,8 +27,7 @@ export const HeroBanner = ({banners}) => {
           </Link>
 
           <div className="desc">
-            <h5>Description</h5>
-            <p>{banners.desc}</p>
+            <h5>{banners.desc}</h5>
           </div>
         </div>
       </div>

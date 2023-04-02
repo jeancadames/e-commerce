@@ -200,6 +200,24 @@ width: 100%;
   width: 700px;
 }
 
+@media screen and (max-width: 700px) {
+  .images-container{
+    justify-content: center;
+  }
+  .basketball-bg, .tennis-bg{
+    margin: 2rem 0;
+  }
+  .images-container h2{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .boxing-bg{
+    display: none;
+  }
+}
+
 .basketball-bg img, .tennis-bg img, .boxing-bg img{
   background-color:#fff;
   width: 100%;
@@ -260,13 +278,12 @@ width: 100%;
 }
 
 .hero-banner-container{
-  background: url('https://img.freepik.com/free-photo/young-basketball-player-team-wearing-sportwear-training-practicing-action-motion-run-isolated-white-background_155003-32562.jpg?w=1060&t=st=1676149786~exp=1676150386~hmac=0132e3ef10f3394facd28255b9720bfa27e02db7e567b49add3349fbb3ffb9ce')no-repeat center center / cover;
+  background: url('https://images8.alphacoders.com/592/592038.jpg')no-repeat center top / cover;
   padding: 100px 40px;
   position: relative;
   height: 500px;
   line-height: 0.9; 
   width: 100%;
-
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -608,6 +625,17 @@ padding: 30px 65px;
   margin-left: 1rem;
 }
 
+@media screen and (max-width: 780px) {
+  .floating-image{
+    display: none;
+  }
+  .rectangle-container{
+    margin-top: 3rem;
+  }
+}
+
+
+
 .rectangle-slogan h1{
   letter-spacing: 2px;
   font-size: 40px; 
@@ -629,6 +657,11 @@ padding: 30px 65px;
 
 .product-template .buttons{
   flex-direction: column;
+}
+@media screen and (max-width: 1100px) {
+  .product-template{
+    flex-direction: column;
+  }
 }
 .product-detail-image{
   border-radius: 15px;
@@ -836,6 +869,7 @@ margin-top: 160px;
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
+    background-position: right;
   }
   .footer-banner-image{
     width: 77%;

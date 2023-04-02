@@ -12,7 +12,9 @@ export const Basketball = () => {
     <>
       <div className="dpt-title">
         <h2>Basketball</h2>
-        <span>{productsCategory.length} products</span>
+        <span>
+          {productsCategory.length}
+          12 products</span>
       </div>
       <div className="dpt-line"></div>
 

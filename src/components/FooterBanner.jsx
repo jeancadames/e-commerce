@@ -6,7 +6,7 @@ import { urlFor } from '../../lib/client'
 export const FooterBanner = ( {footerBanner: {discount, largeText1, largeText2, saleTime, midText, product, buttonText, image, smallText, desc} }) => {
 
   return (
-      <div className='footer-banner-container cover'>FooterBanner
+      <div className='footer-banner-container cover'>
         <div className="banner-desc">
           <div className="left">
             <p>{discount}</p>
